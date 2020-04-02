@@ -1,0 +1,153 @@
+body {
+    margin: 0 auto;
+}
+
+
+#search_div {
+    background-color: #4c4c4c;
+    height: 50px;
+    transition: height 5s;
+}
+
+
+#search_div input {
+    height: 50px !important;
+    background-color: #4c4c4c;
+    color: white;
+}
+
+header {
+    background-color: #FAFAFA;
+    height: auto;
+    /* position: fixed; */
+    /* z-index: 1; */
+    /* position: relative; */
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline !important;
+}
+.navbar {
+    font-size: 14px;
+    padding: 3px !important;
+}
+.navbar-brand {
+    font-size: 40px !important;
+    color: #00377B !important;
+    font-family: courier,arial,helvetica !important;
+}
+.navbar-brand:hover{
+    text-decoration: none !important;
+}
+.form-control {
+    border: none !important;
+
+}
+
+.fa-search::before{
+    font-size: 30px;
+    /* margin: 0 !important; */
+}
+
+label{
+    margin: 0 !important;
+}
+
+
+.input-group-text {
+    background-color: #4c4c4c !important;
+    color: white !important;
+    border: none !important;
+}
+
+
+.collapse {
+    justify-content: flex-end;
+}
+
+.middle {
+    text-align: justify;
+    height: auto;
+    background-color: #FAFAFA;
+}
+
+
+footer {
+    margin-bottom: 50px;
+    /* border: 1px solid black; */
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer h3 {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 0;
+    color: #00377B !important;
+    font-family: courier,arial,helvetica !important;
+}
+footer div {
+    display: inline-block;
+    /* margin-left: 5px; */
+}
+
+footer a {
+    margin-left: 8px;
+    /* border-radius: 20px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important; */
+}
+
+.social-links a{
+    text-align: center;
+	float: left;
+	width: 45px;
+	height: 45px;
+	border: 1px solid #909090;
+	border-radius: 100%;
+    margin-right: 7px; /*space between*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.social-links a i{
+	font-size: 30px;
+    line-height: 38px;
+	color: white;
+
+}
+.fa-facebook:before{
+    color: white;
+}
+
+.bottom-logo {
+    width: 300px;
+    /* border: 1px solid red; */
+}
+
+.language {
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+}
+.language :first-child::after{
+    content: '';
+    /* border: 1px solid black; */
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media screen and (max-width: 1184px){
+    .navbar {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 560px){
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
